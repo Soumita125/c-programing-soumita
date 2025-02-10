@@ -1,23 +1,21 @@
 #include<stdio.h>
 int main()
 {
-	int a;
-	scanf("%d",&a);
-	if ("devided by 400");
+	int a,b,c;
+	scanf("%d %d %d");
+	if (a>b)
 	{
-		printf("the year is leap year");
+		if(a>c)
+			printf("a is greatest");
+		else
+			printf("c is greatest");
 	}
-	else if("devided by 100");
+	else
 	{
-		printf ("the year is not leap year");
-	}
-	else if("devided by 4");
-	{
-		printf("the year is leap year");
-	}
-	else if("devided by 3");
-	{
-		printf("the year is not leap year");
+		if(a>c)
+			printf("bis greatest");
+		else
+			printf("c is greatest");
 	}
 	return 0;
 }
