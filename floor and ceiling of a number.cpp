@@ -1,10 +1,11 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-	int num, i;
-	printf("enter the integer:5");
-	scanf("%d", &n);
-	for(int i=1; <=10;++i);
-	printf("%d*%d=%d\n",n,i,n*i);
-	return 0;
+	float a,b,c;
+	scanf("%f",&a);
+	b=floor(a);
+	c=ceil(a);
+	printf("the floor value and ceil value respectively is=%f%f",b,c);return 0;
+	
 }
