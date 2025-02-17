@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	float c1,c2,f1,f2;
-	scanf("%f",&c1);
-	f1= (c1*9/5)+32;
-	printf("%f",f1);
-	scanf("%f",f2);
-	c2=(f2-32)*5/9;
-	printf("%f",c2);
+	float p,r,t;
+	scanf("%f\n%f\n%f",&p,&r,&t);
+	float si;
+	si=(p*r*t)/100;
+	printf("the simple interest is%f",si);
+	return 0;
 }
