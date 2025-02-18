@@ -3,13 +3,10 @@ int main()
 {
 	int a;
 	scanf("%d",&a);
-	if(a<0)
+	if(a==40)
 	{
-		printf("posetive");
+		printf("present");
 	}
-	else
-	{
-		printf("negetive");
-	}
+	return 0;
 }
 	
