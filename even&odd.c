@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int a,b;
-	scanf("%d%d",&a,&b);
-	if(a>b)
+	int a;
+	scanf("%d",&a);
+	if(a%2==0)
 	{
-		printf("ais the greatest");
+		printf("even");
 	}
 	else
 	{
-		printf("b is the greatest");
+		printf("odd");
 	}
+	return 0;
 }
 	
